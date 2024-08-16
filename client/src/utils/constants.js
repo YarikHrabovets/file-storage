@@ -1,0 +1,7 @@
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const INDEX_ROUTE = '/'
+export const PROFILE_ROUTE = '/profile'
+export const DISK_ROUTE = '/disk'
+export const ACCOUNT_ROUTE = '/account-settings'
+export const SECURITY_ROUTE = '/security-settings'

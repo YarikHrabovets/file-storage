@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --light: #E4E1E1;
+    --blue: #566885;
+    --green: #009577;
+    --light-green: #3CCE7B;
+    --muted: #6C757D;
+    --dark-grey: #4B4B4B;
+    --dark: #292929;
+    --light-dark: #333333;
+    --gold: #FFA800;
+    --danger: #d14949;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    background-color: var(--light);
+    color: var(--blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+::-moz-selection {
+    background: rgba(0, 149, 119, .25);
+}
+
+::selection {
+    background: rgba(0, 149, 119, .25);
+}
+
+.color-blue {
+    color: var(--blue) !important;
+}
+
+.color-gold {
+    color: var(--gold) !important;
+}
+
+.background-dark {
+    background: rgba(41, 41, 41, .8888) !important;
+}
+
+.background-blue {
+    background: var(--blue) !important;
+}
+
+.success-button {
+    background: none !important;
+    border: 1px solid var(--green) !important;
+    color: var(--green) !important;
+}
+
+.success-button:hover {
+    background: var(--green) !important;
+    color: white !important;
+}
+
+.info-button {
+    background: none !important;
+    border: 1px solid var(--blue) !important;
+    color: var(--blue) !important;
+}
+
+.info-button:hover {
+    background: var(--blue) !important;
+    color: white !important;
+}
+
+.danger-button {
+    background: none !important;
+    border: 1px solid var(--danger) !important;
+    color: var(--danger) !important;
+}
+
+.danger-button:hover {
+    background: var(--danger) !important;
+    color: white !important;
+}
+
+.info-solid-button {
+    background: var(--blue) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.info-solid-button:hover {
+    background: rgba(86, 104, 133, .85) !important;
+}
+
+.icon-button {
+    border: none !important;
+    background: none !important;
+    color: var(--blue) !important;
+    cursor: pointer !important;
+}
+
+.top-rounded {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.top-not-rounded {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: var(--green) !important;
+    box-shadow: 0 0 0 .25rem rgba(0, 149, 119, .25) !important;
+}
+
+.avatar {
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--light);
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, .4);
+}
+
+.avatar-header {
+    height: 40px;
+    border: 3px solid var(--light);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .4);
+}
+
+.avatar-list {
+    height: 40px;
+}

@@ -1,0 +1,21 @@
+.button-container {
+    display: none;
+}
+
+.file {
+    display: block;
+}
+
+.name {
+    grid-column-start: 2;
+}
+
+.date {
+    grid-column-start: 5;
+    text-align: center;
+}
+
+.size {
+    grid-column-start: 6;
+    text-align: center;
+}

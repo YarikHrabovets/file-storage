@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px) {
+    .navbar {
+        border-radius: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
